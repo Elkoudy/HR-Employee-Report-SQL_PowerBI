@@ -4,11 +4,15 @@
 
 This project focuses on analyzing Human Resources data to gain insights into employee demographics, turnover rates, tenure, and department distributions. SQL is used for querying the HR database, and Power BI is utilized for visualizing key findings through interactive dashboards.
 
+![HR Dashboard](Images/Dashboard1.png)
+
+![HR Dashboard](Images/Dashboard2.png)
+
 ## Project Structure
 
 The project is organized into the following main directories:
-```plaintext
 
+```plaintext
 HR-Employee-Report-SQL_PowerBI/
 │
 ├── data/
@@ -18,12 +22,11 @@ HR-Employee-Report-SQL_PowerBI/
 │   │   ├── processed/
 │   │   │   ├── age_group.csv
 │   │   │   ├── age_group_gender.csv
-│   │   │   ├── avg_lenght_employment.csv
+│   │   │   ├── avg_length_employment.csv
 │   │   │   ├── avg_tenure.csv
 │   │   │   ├── employee_change.csv
 │   │   │   ├── gender.csv
 │   │   │   ├── gender_department.csv
-│   │   │   ├── Human Resources.csv
 │   │   │   ├── jobtitle.csv
 │   │   │   ├── location.csv
 │   │   │   ├── race.csv
@@ -34,6 +37,10 @@ HR-Employee-Report-SQL_PowerBI/
 │
 ├── Dashboard/
 │   └── HR_Employee_Report.pdf
+│
+├── Images/
+│   ├── Dashboard1.png
+│   └── Dashboard2.png
 │
 └── PowerBI/
     └── HR_Employee_Report.pbix
@@ -72,6 +79,9 @@ HR-Employee-Report-SQL_PowerBI/
   - `HR_Employee_Report.pdf`  
     PDF version of the dashboard for easy viewing.
 
+- **Images Folder**
+  - Contains dashboard screenshots.
+  
 - **PowerBI/**  
   Contains the Power BI file:  
   - `HR_Employee_Report.pbix`
